@@ -12,11 +12,16 @@ export type Event = {
 };
 
 export function mapDbEventToEvent( input: unknown ): Event | null {
+    const potentialEvent = input as Partial<Event> | null;
+    
+    if (!potentialEvent || !potentialEvent.id || !potentialEvent.name || !(potentialEvent.slug) ) {
+        return null;
+    }
 
     const event: Event = {
-        id: 1,
-        name: '',
-        slug: '',
+        id: potentialEvent.id,
+        name: potentialEvent.name,
+        slug: potentialEvent.slug,
         created: new Date(),
         updated: new Date(),
     };
