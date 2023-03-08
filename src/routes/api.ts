@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
-import { query } from '../lib/db';
-import { mapDbEventsToEvents } from '../lib/events';
+import { query } from '../lib/db.js';
+import { mapDbEventsToEvents } from '../lib/events.js';
 
 export const router = express.Router();
 

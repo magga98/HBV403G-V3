@@ -1,19 +1,10 @@
 import { readFile } from 'fs/promises';
 import pg from 'pg';
 
-const { DATABASE_URL: connectionString, NODE_ENV: nodeEnv = 'development' } =
+const { DATABASE_URL: connectionString } =
   process.env;
 
-if (!connectionString) {
-  console.error('vantar DATABASE_URL í .env');
-  process.exit(-1);
-}
-
-// Notum SSL tengingu við gagnagrunn ef við erum *ekki* í development
-// mode, á heroku, ekki á local vél
-const ssl = nodeEnv === 'production' ? { rejectUnauthorized: false } : false;
-
-const pool = new pg.Pool({ connectionString, ssl });
+const pool = new pg.Pool({ connectionString });
 
 pool.on('error', (err: Error) => {
   console.error('Villa í tengingu við gagnagrunn, forrit hættir', err);
