@@ -9,17 +9,25 @@ export type Event = {
     description?: string;
     created: Date;
     updated: Date;
-}
+};
 
 export function mapDbEventToEvent( input: unknown ): Event | null {
-    return null;
+
+    const event: Event = {
+        id: 1,
+        name: '',
+        slug: '',
+        created: new Date(),
+        updated: new Date(),
+    };
+
+    return event;
 }
 
-export function mapDbEventsToEvents(input: QueryResult<any> | null): Array<Event> {
+export function mapDbEventsToEvents( input: QueryResult<any> | null, ): Array<Event> {
     if (!input) {
-        return []
+        return [];
     }
-    console.log('input :>>', input);
     const mappedEvents = input?.rows.map(mapDbEventToEvent);
 
     return mappedEvents.filter((i): i is Event => Boolean(i));
