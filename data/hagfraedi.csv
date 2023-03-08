@@ -39,7 +39,7 @@ HAG301G;Hagræn stærðfræði III;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?t
 HAG406G;Þjóðhagslíkön og þjóðhagsspár;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71096420230&kennsluar=2022
 HAG512G;Verðmat fyrirtækja;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70982720226&kennsluar=2022
 HAG605G;Fjármál hins opinbera;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=04530220230&kennsluar=2022
-HAG101G;Hagræn stærðfræði I;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=04510320226&kennsluar=2022
+HAG101G;Hagræn stærðfræði I;6;Haust;foo;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=04510320226&kennsluar=2022
 HAG101F;Kostnaðar- og nytjagreining;6;Haust;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=04062420226&kennsluar=2022
 HAG606G;Hagrannsóknir III;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=04530520230&kennsluar=2022
 HAG014F;Sérhæfð verkefni í fjármálum;6;Haust;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70855120226&kennsluar=2022
@@ -61,4 +61,4 @@ HAG434L;MA ritgerð í hagnýttri hagfræði;30;Sumar;Framhaldsnám;https://ugla.hi.is
 HAG433L;MS ritgerð í fjármálahagfræði;30;Vor;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=91010720230&kennsluar=2022
 HAG615G;Saga hagfræðikenninga;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71101920230&kennsluar=2022
 HAG015F;Hagfræðileg ákvarðanataka;7,5;Vor;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70943420230&kennsluar=2022
-HAG106G;Fjármálahagfræði I;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70359620226&kennsluar=2022
+;HAG106G;Fjármálahagfræði I;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70359620226&kennsluar=2022

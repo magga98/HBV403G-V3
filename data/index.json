@@ -33,20 +33,5 @@
     "title": "Viðskiptafræði",
     "description": "Viðskiptafræðideild hefur gegnt forystuhlutverki í menntun stjórnenda og sérfræðinga á sviði viðskiptafræði í áratugi. Deildin hefur lagt metnað sinn í að miðla alþjóðlega viðurkenndri þekkingu með því að vera leiðandi í rannsóknum, kennslu og þjónustu við íslenskt atvinnulíf.",
     "csv": "vidskiptafraedi.csv"
-  },
-  {
-    "title": "Tómadeildin",
-    "description": "Þessi deild inniheldur enga áfanga því CSV skjal er tómt.",
-    "csv": "tomt.csv"
-  },
-  {
-    "title": "Ólöglegadeildin",
-    "description": "Þessi deild inniheldur enga áfanga því CSV skjalið er ólöglegt.",
-    "csv": "ologlegt.csv"
-  },
-  {
-    "title": "Týndadeildin",
-    "description": "Þessi deild inniheldur enga áfanga því CSV skjalið er ekki til.",
-    "csv": "tynt.csv"
   }
 ]

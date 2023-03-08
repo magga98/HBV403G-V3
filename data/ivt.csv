@@ -16,7 +16,7 @@ EVF401M;Aðskilnaður efna;6;Vor;Grunnnám / Framhaldsnám;https://ugla.hi.is/kennsl
 IÐN205M;Titringshjóð og tónlist;7,5;Vor;Grunnnám / Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71153020230&kennsluar=2022
 VÉL408G;Örtölvur og vélbúnaður;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71046220230&kennsluar=2022
 TÖL303G;Gagnasafnsfræði;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=08713120226&kennsluar=2022
-TÖL107G;Vefforritun 1;8;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=08715320226&kennsluar=2022
+TÖL107G;Vefforritun 1;8;bar;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=08715320226&kennsluar=2022
 IÐN133F;Verkefni í Tæknistjórnun;7,5;Haust;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71154120226&kennsluar=2022
 IÐN503G;Verkefnastjórnun;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=08213720226&kennsluar=2022
 VÉL217F;Verkefni;7,5;Vor;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70426320230&kennsluar=2022
@@ -59,7 +59,7 @@ IÐN101M;Gæðastjórnun;6;Haust;Grunnnám / Framhaldsnám;https://ugla.hi.is/kennslus
 REI506M;Gervigreind fyrir jarðarkönnun keyrt á ofurtölvum;6;Haust;Grunnnám / Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71151920226&kennsluar=2022
 VÉL501M;Tæring;6;Haust;Grunnnám / Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=08221420226&kennsluar=2022
 IÐN103G;Tæknistjórnun;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70950420226&kennsluar=2022
-HBV403G;Vefforritun 2;6;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70908020230&kennsluar=2022
+HBV403G;Vefforritun 2;6.1234;Vor;Grunnnám;xhttps://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70908020230&kennsluar=2022
 VÉL064G;Starfsþjálfun í vélaverkfræði;6;Haust;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71166520226&kennsluar=2022
 LVF201F;Valið efni í lífverkfræði;7,5;Vor;Framhaldsnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=70916620230&kennsluar=2022
 TÖL205G;Tölvur, stýrikerfi og tölvufærni;4;Vor;Grunnnám;https://ugla.hi.is/kennsluskra/?tab=nam&chapter=namskeid&id=71070120230&kennsluar=2022
