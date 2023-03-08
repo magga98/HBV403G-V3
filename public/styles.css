@@ -1,0 +1,75 @@
+:root {
+  --font-base-size: 16px;
+  --font-base-family: Helvetica, Arial, sans-serif;
+  --max-width: 56rem;
+  --spacing: 1rem;
+  --color-border: #ddd;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-base-family);
+  font-size: var(--font-base-size);
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: var(--spacing);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: var(--spacing);
+}
+
+ul {
+  padding-left: var(--spacing);
+}
+
+ul li {
+  margin-bottom: calc(var(--spacing) / 2);
+}
+
+.table {
+  margin-bottom: var(--spacing);
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+
+  overflow-y: auto;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid var(--color-border);
+  padding: calc(var(--spacing) / 2);
+}
+
+th {
+  /* Takki fari ekki í nýja línu */
+  white-space: nowrap;
+}
+
+th button {
+  background-color: var(--color-border);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: calc(var(--spacing) / 2);
+  padding: calc(var(--spacing) / 2);
+}
