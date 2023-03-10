@@ -1,25 +1,9 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { NextFunction } from 'express';
+import { getDepartmentBySlug, getCoursesByDepartmentId, insertDepartment, conditionalUpdate } from '../lib/db.js';
+import { validationCheck, atLeastOneBodyValueValidator } from '../lib/validation.js';
 import{ Course } from '../types.js';
+import { createDepartmentHandler } from './departments.js';
 
 export async function listCourses(
     req: Request,

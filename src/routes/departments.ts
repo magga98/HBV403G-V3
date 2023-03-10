@@ -1,21 +1,7 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { NextFunction } from 'express';
+import { getDepartments, getDepartmentBySlug, insertDepartment, conditionalUpdate } from '../lib/db.js';
+import { validationCheck, atLeastOneBodyValueValidator } from '../lib/validation.js';
 import{ Department } from '../types.js';
 
 export async function listDepartments(
