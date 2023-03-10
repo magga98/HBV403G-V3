@@ -29,9 +29,9 @@ export async function event(req: Request, res: Response, next: NextFunction) {
 async function patchEvent() {}
 
 async function createEvent(req: Request, res: Response, next: NextFunction) {
-  const {title, slug, description } = req.body
+  const {title, slug, description } = req.body;
 
-  res.json({ title, slug, description })
+  res.json({ title, slug, description });
 }
 
 async function deleteEvent() {}
