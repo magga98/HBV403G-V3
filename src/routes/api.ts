@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { query } from '../lib/db.js';
-import { mapDbEventsToEvents } from '../lib/events.js';
+import { mapDbEventsToEvents, mapDbEventToEvent } from '../lib/events.js';
 
 export const router = express.Router();
 
@@ -13,11 +13,9 @@ export async function index(req: Request, res: Response, next: NextFunction) {
 }
 
 export async function event(req: Request, res: Response, next: NextFunction) {
-  const { id } = req.params;
-  const eventsResult = await query('SELECT * FROM events WHERE id = $1;', [id]);
-
-  const events = mapDbEventsToEvents(eventsResult);
-  console.log('events :>>', events);
+  const { slug } = req.params;
+  const eventsResult = await query('SELECT * FROM events WHERE slug = $1;', [ slug ]);
+  const events = mapDbEventToEvent(eventsResult);
   res.json(events);
 }
 

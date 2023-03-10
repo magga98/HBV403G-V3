@@ -11,7 +11,7 @@ export type Event = {
     updated: Date;
 };
 
-export function mapDbEventToEvent( input: unknown ): Event | null {
+export function eventMapper( input: unknown ): Event | null {
     const potentialEvent = input as Partial<Event> | null;
     
     if (!potentialEvent || !potentialEvent.id || !potentialEvent.name || !(potentialEvent.slug) || !potentialEvent.created || !potentialEvent.updated ) {
@@ -27,6 +27,14 @@ export function mapDbEventToEvent( input: unknown ): Event | null {
     };
 
     return event;
+}
+
+export function mapDbEventToEvent(input: QueryResult<any> | null): Event | null {
+    if (!input) {
+        return null;
+    }
+
+    return eventMapper(input.rows[0]);
 }
 
 export function mapDbEventsToEvents( input: QueryResult<any> | null, ): Array<Event> {
