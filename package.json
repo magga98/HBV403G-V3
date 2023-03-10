@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "node --loader ts-node/esm ./src/app.ts"
-    "setup": "node --loader ts-node/esm ./src/setup/setup.ts"
+    "start": "node --loader ts-node/esm ./src/app.ts",
+    "setup": "node --loader ts-node/esm ./src/setup/setup.ts",
     "lint": "eslint ./src"
   },
   "keywords": [],
