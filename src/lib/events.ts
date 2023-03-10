@@ -11,10 +11,10 @@ export type Event = {
     updated: Date;
 };
 
-export function eventMapper( input: unknown ): Event | null {
+export function eventMapper(input: unknown): Event | null {
     const potentialEvent = input as Partial<Event> | null;
     
-    if (!potentialEvent || !potentialEvent.id || !potentialEvent.name || !(potentialEvent.slug) || !potentialEvent.created || !potentialEvent.updated ) {
+    if (!potentialEvent || !potentialEvent.id || !potentialEvent.name || !potentialEvent.slug || !potentialEvent.created || !potentialEvent.updated ) {
         return null;
     }
 
