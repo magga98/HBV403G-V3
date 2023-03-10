@@ -26,5 +26,18 @@ export async function event(req: Request, res: Response, next: NextFunction) {
   res.json(event);
 }
 
+async function patchEvent() {}
+
+async function createEvent(req: Request, res: Response, next: NextFunction) {
+  const {title, slug, description } = req.body
+
+  res.json({ title, slug, description })
+}
+
+async function deleteEvent() {}
+
 router.get('/', index);
 router.get('/:slug', event);
+router.patch('/:slug', patchEvent);
+router.post('/', createEvent);
+router.delete('/:slug', deleteEvent);
